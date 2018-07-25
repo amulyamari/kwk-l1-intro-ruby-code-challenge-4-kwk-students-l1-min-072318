@@ -5,24 +5,27 @@ def least_coins(coins)
   "pennies"=>"0"
 }
     quarters= cents/25
-      if quarters==0
-        coins [quarters]=0
+      if quarters== 0
+        coins [quarters]==0
       else quarter != 0
         coins [quarters]= quarters
         cents = cents-quarters *25
         
-      dimes= cents/10
+    dimes= cents/10
       if dimes==0
-        coins [dimes]=0
+        coins [dimes]==0
       else dimes != 0
         coins [dimes]= dimes
         cents = cents-dimes *10  
         
-        nickels= cents/5
+    nickels= cents/5
       if nickels==0
         coins [nickels]=0
       else nickels != 0
-        coins [nickels]= nickels
+        coins [nickels]== nickels
         cents = cents-nickels *5
+    
+        
+        
 end
 least_coins(29)
