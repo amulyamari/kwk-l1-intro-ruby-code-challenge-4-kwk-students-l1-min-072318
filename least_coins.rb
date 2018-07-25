@@ -30,7 +30,6 @@ def least_coins(coins)
         coins["pennies"]=0 
       else pennies != 0
         coins ["pennies"]==pennies
-        
-        
+      
 end
 least_coins(29)
