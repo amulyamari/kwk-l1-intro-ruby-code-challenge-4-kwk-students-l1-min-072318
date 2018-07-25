@@ -1,6 +1,6 @@
-def least_coins(cents)
-{"quarters"=>
+def least_coins(coins)
+quarters+=1
   
 }
 end
-least_coins(30)
+least_coins(29)
